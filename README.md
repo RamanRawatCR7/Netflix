@@ -73,9 +73,9 @@ Its a single page website right now but i'm stilling working on it to make it a 
 <!-- CONTACT -->
 ## Contact
 
-Raman Rawat - [Raman_Rawat](https://github.com/RamanRawatCR7) - singhramancr7@gmail.com
+* [Raman_Rawat](https://github.com/RamanRawatCR7) - singhramancr7@gmail.com
 
-Project Link: [](https://github.com/RamanRawatCR7/Netflix)
+* [Project Link](https://github.com/RamanRawatCR7/Netflix)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
