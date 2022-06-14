@@ -1,6 +1,8 @@
 import React from 'react'
 import { useRef } from 'react'
-// import { auth } from '../Firebase';
+import { Auth } from '../Firebase';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+
 import './Signupscreen.css'
 
 function Signupscreen() {
@@ -11,19 +13,31 @@ function Signupscreen() {
   const register = (e) => {
     e.preventDefault();
 
-    // auth.createUserWithEmailAndPassword(
-    //   emailRef.current.value,
-    //   passwordRef.current.value
-    // )
-    // .then((authUser)=>{
-    //   console.log(authUser);
-    // })
-    // .catch((error)=>{
-    //   alert(error.message)
-    // });
+    createUserWithEmailAndPassword(
+      Auth,
+      emailRef.current.value,
+      passwordRef.current.value
+    )
+    .then((authUser)=>{
+      console.log(authUser);
+    })
+    .catch((error)=>{
+      alert(error.message)
+    });
   }
   const signIn = (e) => {
     e.preventDefault();
+
+    signInWithEmailAndPassword(
+      Auth,
+      emailRef.current.value,
+      passwordRef.current.value
+    ).then((authUser)=>{
+      console.log(authUser);
+    })
+    .catch((error)=>{
+      alert(error.message)
+    });
   }
 
   return (
