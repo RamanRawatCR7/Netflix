@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[**Netflix**](https://netflix-clone-899b8.web.app/)
 
-### `npm test`
+1. It is a clone of Netflix.  I'm using API from https://www.themoviedb.org/ to get the data of Movies, TV Series and such which are currently on Netflix.
+2. The first page of the site is the home page where it says "get started".
+3. Upon clicking it, it'll take you to the sign in page.
+4. If you already have an account click "Sign In" else click "Sign up now" after filling in the email address and password.
+5. After signing in/signing up it takes you to the main page where I use that data to put them in 8 rows category wise and clicking those posters of movies will show you the trailer of that movie.
+6. Clicking on the Avatar icon at the top right will take you to the profile screen where you can see your email id along with subscription plan and the renewal date.
+7. Upon clicking on the plan buttons it'll take you to the Stripe payment gateway where you can enter your details(test details) and purchase the plan, after purchasing the plan it'll redirecting you back to the profile screen where you can see the changes in the plan you purchased.
+8. If you close the site without signing out and reopen it, it'll have your account opened without needing to sign in again.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Its a single page website right now but i'm stilling working on it to make it a full-fledged Netflix.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [Node.js](https://nodejs.org/en/)
+* [React.js](https://reactjs.org/)
+* [Firebase](https://firebase.google.com/)
+* [Redux](https://react-redux.js.org/)
+* [Stripe](https://stripe.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<!-- GETTING STARTED -->
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Download all the files as it is in your system.
+2. Open terminal and cd to the project folder.
+3. Open package.json and download all the packages that are there as such "firebase" using command "npm install <package_name>".
+4. Use command "npm start";
+5. Open your browser and type "http://localhost:3000/".
+6. The browser will take you to the Netflix.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Raman Rawat - [Raman_Rawat](https://github.com/RamanRawatCR7) - singhramancr7@gmail.com
 
-### Making a Progressive Web App
+Project Link: [](https://github.com/RamanRawatCR7/Netflix)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<!-- REFERENCES -->
+## References
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* [Stack Overflow](https://stackoverflow.com/)
+* [GeeksforGeeks](https://www.geeksforgeeks.org/)
+* [Firebase Docs](https://firebase.google.com/docs/)
+* [Youtube](https://youtube.com/)
+* [Stripe Docs](https://stripe.com/docs/payments)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/raman-rawat-2477b8218/
