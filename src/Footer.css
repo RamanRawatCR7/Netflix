@@ -1,0 +1,128 @@
+* {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 375px;
+  background-color: black;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grey_border {
+  height: 10px;
+  width: 100%;
+  background-color: #333;
+}
+
+.footercon {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  background-color: transparent;
+}
+
+.footer .flex1 {
+  color: #757575;
+  justify-content: left;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 16px;
+  min-height: 30px;
+  margin-bottom: 15px;
+}
+
+.footer .flex1 > p {
+  align-self: flex-start;
+}
+
+.footer .flex1 > p > a {
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer .flex1 > p > a:hover {
+  text-decoration: underline;
+}
+
+.list1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  justify-content: left;
+  min-height: 50px;
+  font-size: 13px;
+  padding-right: 140px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.list1 li {
+  font-size: 13px;
+  margin: 7px -11px;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: left;
+  justify-content: left;
+}
+
+.list1 > li > a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.list1 > li > a:hover {
+  text-decoration: underline;
+}
+
+li > a {
+  font-size: 13px;
+  text-align: center;
+  color: #757575;
+}
+
+.footertxt {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.end {
+  width: 100%;
+  min-height: 50px;
+  background-color: black;
+  justify-content: left;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #757575;
+  margin-top: 24px;
+}
+
+.end p {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
