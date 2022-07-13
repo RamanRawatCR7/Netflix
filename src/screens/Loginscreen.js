@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Loginscreen.css'
 import Signupscreen from './Signupscreen';
+import Footer from '../Footer';
 
 function Loginscreen() {
 
@@ -37,7 +38,9 @@ function Loginscreen() {
                 </div>
             </>
             )}
+            
         </div>
+        <Footer />
     </div>
   )
 }
