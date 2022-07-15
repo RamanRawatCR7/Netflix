@@ -53,7 +53,7 @@ function Plansscreen() {
 
 
   const loadCheckout = async (priceId) => {
-
+    
     const docRef = await addDoc(collection(db, `customers/${user.uid}/checkout_sessions`), {
       price: priceId,
       success_url: window.location.origin,

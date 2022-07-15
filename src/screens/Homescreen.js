@@ -4,6 +4,7 @@ import Row from '../Row';
 import requests from '../requests';
 import Banner from '../Banner';
 import Nav from '../Nav';
+import Footer from '../Footer';
 
 function Homescreen() {
   return (
@@ -22,6 +23,7 @@ function Homescreen() {
             <Row title="Horror Movies" fetchURL={requests.fetchHorrorMovies} />
             <Row title="Romance Movies" fetchURL={requests.fetchRomanceMovies} />
             <Row title="Documentaries" fetchURL={requests.fetchDocumantaries} />
+            <Footer />
     </div>
   );
 }
