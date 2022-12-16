@@ -24,9 +24,35 @@
     object-fit: contain;
 }
 
+.nav_logo:hover{
+    transform: scale(1.09);
+}
+
 .nav_avatar{
     position: fixed;
     right: 20px;
     width: 30px;
     object-fit: contain;
+}
+
+.nav_avatar:hover{
+    transform: scale(1.09);
+}
+
+.search_logo{
+    position: fixed;
+    right: 100px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav_search{
+    position: relative;
+    right: 280px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.search_logo:hover{
+    transform: scale(1.09);
 }
