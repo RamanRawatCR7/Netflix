@@ -23,7 +23,11 @@ function Profilescreen() {
                     <div className='profilescreen_plans'>
                         <h3>Plans</h3>
                         <Plansscreen />
-                        <button onClick={() => signOut(getAuth())} className='profilescreen_signOut'>Sign Out</button>
+                        <button
+                            onClick={() => signOut(getAuth())}
+                            className='profilescreen_signOut'>
+                                Sign Out
+                        </button>
                     </div>
                 </div>
             </div>
